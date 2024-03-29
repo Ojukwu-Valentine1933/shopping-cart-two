@@ -1,0 +1,9 @@
+ALGORITHM algorithm_name
+VAR
+    num1 : INTEGER;
+    num2 : INTEGER;
+    total : INTEGER := 0;
+BEGIN
+    total := num1 + num2;
+    write(total);
+END

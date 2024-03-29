@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn-div {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        #Change-color-button {
+            background-color: gray;
+            color: white;
+            height: 50px;
+            width: 100px;
+            border-radius: 10px;
+        }
+
+        #color-box {
+            height: 150px;
+            width: 150px;
+            /* background-color: black; */
+        }
+
+        .Color-div {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Color Changer</h1>
+    </div>
+    <div class="Color-div">
+        <div id="color-box">
+
+        </div>
+    </div>
+
+    <div class="btn-div">
+        <button id="Change-color-button" onclick="getRandomColor()">Change Color</button>
+    </div>
+
+<script src="color.js"></script>
+</body>
+
+</html>
